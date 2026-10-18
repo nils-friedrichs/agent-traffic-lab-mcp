@@ -4,6 +4,8 @@
 
 ATL is execution infrastructure for supported external agent tasks, beyond tool search or routing-only. Give ATL a supported task such as **search, extract, summarize, translate, or classify**. ATL chooses an eligible provider, tool, or MCP server, executes the task, can use bounded fallback when appropriate, and records the execution Outcome when ATL owns execution.
 
+For directory maintainers and host integrations: [canonical tool-exposure and distribution notes](docs/distribution-notes.md) (one default first-use tool, advanced tools opt-in). The direct endpoint, not third-party mirrored snapshots, is authoritative.
+
 ## Fastest first use
 
 Connect the canonical remote MCP endpoint:
